@@ -12,7 +12,7 @@ const Invest = () => {
               key={index}
               header={item.header}
               description={item.description}
-              height={52}
+              height="normal"
             />
           ))}
         </div>

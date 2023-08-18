@@ -19,7 +19,7 @@ export default function Process() {
             header={item.header}
             description={item.description}
             icon={icons[index]}
-            height={52}
+            height="normal"
           />
         ))}
       </div>
